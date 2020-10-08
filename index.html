@@ -1,113 +1,149 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="bootstrap.css"> 
-  <link rel="stylesheet" href="./styles.css">
-  <title>Accueil</title>
-  </head>
-  <body>
-      
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- GOOGLE FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <title>Accueil</title>
+</head>
+
+<body>
+     
+    <!-- INTERFACE 1 STARTS -->
     <main>
         <h1>Interface 1</h1>
         <div class="container py-5 text-left">
-        <div class="row pb-5"> <!--pb= padding bottom. 5 = unité la plus grand-->
-            <div class="col-md-3 d-flex justify-content-center"> <!--d-flex=display:flex-->
-                <div class="card border border-light" style="width: 14rem;">
-                    <img src="./images/sanglier.png" class="card-img-top" alt="icon" height="140px">
-                    <div class="card-body">
-                      <h5 class="card-title text-success">Grunt plugin</h5>
-                      <p class="card-text">Insrall the grunt-serge plugin, and your project is ready to use grunt deploy.</p>
+            <div class="row pb-5">
+                <!--pb= padding bottom. 5 = unité la plus grand-->
+                <div class="col-md-3 d-flex justify-content-center">
+                    <!--d-flex=display:flex-->
+                    <div class="card border border-light" style="width: 14rem;">
+                        <img src="./images/sanglier.png" class="card-img-top" alt="icon" height="140px">
+                        <div class="card-body">
+                            <h2 class="card-title text-success">Grunt plugin</h2>
+                            <p class="card-text">Insrall the grunt-serge plugin, and your project is ready to use grunt
+                                deploy.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 d-flex justify-content-center">
-                <div class="card border border-light" style="width: 14rem;">
-                    <img src="./images/coca.png" class="card-img-top" alt="icon"  height="140px">
-                    <div class="card-body">
-                      <h5 class="card-title text-success">Gulp plugin</h5>
-                      <p class="card-text">Install Surge as a devDependency, and you're ready to use it in your Gulpfile.</p>
+                <div class="col-md-3 d-flex justify-content-center">
+                    <div class="card border border-light" style="width: 14rem;">
+                        <img src="./images/coca.png" class="card-img-top" alt="icon" height="140px">
+                        <div class="card-body">
+                            <h2 class="card-title text-success">Gulp plugin</h2>
+                            <p class="card-text">Install Surge as a devDependency, and you're ready to use it in your
+                                Gulpfile.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 d-flex justify-content-center">
-                <div class="card border border-light" style="width: 14rem;">
-                    <img src="./images/git.png" class="card-img-top" alt="icon"  height="140px">
-                      <div class="card-body">
-                      <h5 class="card-title text-success">Git Hooks</h5>
-                      <p class="card-text">Deploy every time you push to GitHub, but without any branch juggling.</p>
+                <div class="col-md-3 d-flex justify-content-center">
+                    <div class="card border border-light" style="width: 14rem;">
+                        <img src="./images/git.png" class="card-img-top" alt="icon" height="140px">
+                        <div class="card-body">
+                            <h2 class="card-title text-success">Git Hooks</h2>
+                            <p class="card-text">Deploy every time you push to GitHub, but without any branch juggling.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 d-flex justify-content-center">
-                <div class="card border border-light" style="width: 14rem;">
-                    <img src="./images/npm.png" class="card-img-top" alt="icon" height="140px">
-                    <div class="card-body">
-                      <h5 class="card-title text-success">npm run scripts</h5>
-                      <p class="card-text">Install the Surge CLI tool, and your project is ready to use in your package. j son.</p>
+                <div class="col-md-3 d-flex justify-content-center">
+                    <div class="card border border-light" style="width: 14rem;">
+                        <img src="./images/npm.png" class="card-img-top" alt="icon" height="140px">
+                        <div class="card-body">
+                            <h2 class="card-title text-success">npm run scripts</h2>
+                            <p class="card-text">Install the Surge CLI tool, and your project is ready to use in your
+                                package. j son.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- INTERFACE 2 STARTS -->
         <h1>Interface 2</h1><br>
 
-        <div class="card" style="width: 18rem;"> 
+        <div class="card2" style="width: 18rem;">
             <div class="card-body badge-primary">
-            <a href="#" class="card-link text-white">Users right now</a>
-              <h5 class="card-title text-white">90</h5>
-              <p class="card-text text-white">Page views per minute</p>
-              <img src="./images/Screenshot.png" width="100%" alt="graphique">
-            
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
-                    Top Active Pages
-                    <span class="badge badge-primary badge-pill">Users</span>
-                  </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
-                  actualites/so...nfants-femmes
-                  <span class="badge badge-primary badge-pill">46</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
-                  actualites/pol...arme-politique
-                  <span class="badge badge-primary badge-pill">8</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
-                  /actualites/so...existe-femmes
-                  <span class="badge badge-primary badge-pill">3</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
-                    /p/159944294/..ee-de-meurtre
-                    <span class="badge badge-primary badge-pill">3</span>
-                  </li>
-                  <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
-                    /programmes-tele
-                    <span class="badge badge-primary badge-pill">3</span>
-                  </li>
-              </ul>
-                    
-           
-            <div class="card-body text-right bg-primary">
-              <a href="#" class="card-link2 text-white bg-primary">REAL-TIME REPORT</a>
+                <a href="#" class="card-link text-white">Users right now</a>
+                <h5 class="card-title text-white">90</h5>
+                <p class="card-text text-white">Page views per minute</p>
+                <img src="./images/Screenshot.png" width="100%" alt="graphique">
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
+                        Top Active Pages
+                        <span class="badge badge-primary badge-pill">Users</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
+                        actualites/so...nfants-femmes
+                        <span class="badge badge-primary badge-pill">46</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
+                        actualites/pol...arme-politique
+                        <span class="badge badge-primary badge-pill">8</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
+                        /actualites/so...existe-femmes
+                        <span class="badge badge-primary badge-pill">3</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
+                        /p/159944294/..ee-de-meurtre
+                        <span class="badge badge-primary badge-pill">3</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center text-white bg-primary">
+                        /programmes-tele
+                        <span class="badge badge-primary badge-pill">3</span>
+                    </li>
+                </ul>
+
+                <div class="card-body text-right bg-primary">
+                    <a href="#" class="card-link2 text-white bg-primary">REAL-TIME REPORT</a><svg width="1em"
+                        height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
             </div>
-          </div>
+        </div>
+        <div><br>
+            <!-- INTERFACE 3 STARTS -->
+            <h1>Interface 3</h1>
 
+            <div class="card mb-3 carte" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./images/bureau.jpg" class="card-img" alt="bureau" height="100%">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title">A Quick Market-Driven Guide to Choosing a 'Profitable'
+                                Start-Up Name</h6>
+                            <p class="card-text3"> And what 'profit' has to do with naming your startup</p>
 
+                            <div class="footer">
+                                <img src="./images/man.jpg" alt="Avatar" class="avatar">
+                                <p class="last">Josiah Humphrey
+                                    <br><span class="textgris">Jun 23 9 min read</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-            
     </main>
-        
 
-    <footer>
 
-    </footer>
-  </body>
+</body>
+
 </html>
