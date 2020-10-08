@@ -1,0 +1,15 @@
+h5 { 
+    font-size: 45px;
+}
+
+p {border-bottom: 1px solid white;
+}
+
+.list-group-item  {
+    border-bottom: 1px solid white;
+
+}
+
+.card-link2  {
+    border-top: 1px solid white;   
+}
